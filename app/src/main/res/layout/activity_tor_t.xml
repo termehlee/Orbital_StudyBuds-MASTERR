@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#175A4D"
+    android:orientation="vertical"
+    tools:context=".TorS">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="479dp"
+        android:fontFamily="sans-serif-black"
+        android:text="What do you want to be today?"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#EED2D6"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/button_Tutor"
+        android:layout_width="219dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="361dp"
+        android:background="#F6AAAC"
+        android:text="Tutor"
+        android:textColor="#F3F1F1"
+        android:textAllCaps="true"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_Tutee"
+        android:layout_width="219dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="232dp"
+        android:background="#F6AAAC"
+        android:text="Tutee"
+        android:textColor="#F3F1F1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="25sp" />
+
+</RelativeLayout>
